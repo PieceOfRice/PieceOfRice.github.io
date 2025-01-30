@@ -6,9 +6,6 @@ color-scheme: auto
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
   - jekyll-remote-theme
 
 
