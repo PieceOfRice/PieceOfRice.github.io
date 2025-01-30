@@ -19,7 +19,7 @@ platforms:
 
 navigation:
   - name: Home
-    link: /index.html
+    link: /
   - name: CV
     link: /pages/cv.html
   - name: Projects
