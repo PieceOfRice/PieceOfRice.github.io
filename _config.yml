@@ -2,21 +2,19 @@ title: PieceOfRice
 logo: /assets/face.jpg
 email: rhysharvey99@gmail.com
 #description: PieceOfRice Site
-
+color-scheme: auto
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
   - jekyll-remote-theme
 
-url: https://PieceOfRice.github.io # the base hostname & protocol for your site, e.g. http://example.com
-favicon: true
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-color-scheme: auto
 
 
 
 
-github_username: PieceOfRice
 
 platforms:
   - name: GitHub
