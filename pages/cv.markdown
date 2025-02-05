@@ -30,8 +30,8 @@ Artificial Intelligence & Computer Science BSc Student at the University of Birm
             <ul>
                 <li><h4 class="sub-3-title">CS Theory</h4>
                     <ul>
-                        <li><b>88%</b> | Mathematical & Logical Foundations</li>
-                        <li><b>80%</b> | Theories of Computation</li>
+                        <li><b>88%</b>&nbsp;&nbsp; | Mathematical & Logical Foundations</li>
+                        <li><b>80%</b>&nbsp;&nbsp; | Theories of Computation</li>
                         <li><b>67%</b>&nbsp;&nbsp; | Data Structures and Algorithms</li>
                     </ul>
                 </li>
