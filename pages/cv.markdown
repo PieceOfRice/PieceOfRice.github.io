@@ -11,7 +11,7 @@ Artificial Intelligence & Computer Science BSc Student at the University of Birm
 
 <details open>
 <summary><h2 class="sub-title">Education</h2></summary>
-    <h3 class="sub-2-title" style="margin-left:20px; margin-bottom: 0.2em;">Artificial Intelligence & Computer Science BSc</h3>
+    <h3 class="sub-2-title" style="margin-left:20px; margin-bottom: 0.2em;">Artificial Intelligence & Computer Science BSc - 79.8% Avg </h3>
     <h4 class="sub-3-title" style="margin-left:30px; margin-top: 0;">University Of Birmingham 2022 - 2025</h4>
     <!-- <h4 class="sub-2-title" style="margin-left:30px;">Modules</h4> !-->
     <div style="display: flex; margin-left:15px;">
@@ -30,8 +30,9 @@ Artificial Intelligence & Computer Science BSc Student at the University of Birm
             <ul>
                 <li><h4 class="sub-3-title">CS Theory</h4>
                     <ul>
-                        <li><b>100%</b> | Mathematical & Logical Foundations</li>
-                        <li><b>85%</b>&nbsp;&nbsp; | Data Structures and Algorithms</li>
+                        <li><b>88%</b> | Mathematical & Logical Foundations</li>
+                        <li><b>80%</b> | Theories of Computation</li>
+                        <li><b>67%</b>&nbsp;&nbsp; | Data Structures and Algorithms</li>
                     </ul>
                 </li>
             </ul>
