@@ -1,0 +1,52 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+section {
+  width: 78%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+.main-title {
+  font-size: 3em;
+}
+
+.sub-title {
+  font-size: 1.5em;
+}
+
+.sub-2-title {
+  font-size: 1.2em;
+}
+
+.sub-3-title {
+  font-size: 1em;
+}
+
+summary {
+  display:inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+summary::after {
+  content: "▶"; 
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 18px;
+}
+
+
+details[open] summary::after {
+  content: "▼";
+}
