@@ -116,7 +116,8 @@ Artificial Intelligence & Computer Science BSc Student at the University of Birm
     <br><br> <a href="/pages/projects/teamproject.html"><i class="fas fa-arrow-right"></i> Project Page</a>
     </p>
     <h3 class="sub-2-title" style="margin-left:20px; margin-bottom: 0.2em;">Personalised Revision Timetable (A Level Project)</h3> 
-    <p style="margin-left:40px; margin-top: 0;">University Of Birmingham 2022 - 2025
+    <p style="margin-left:40px; margin-top: 0;">
+    Given a set of times and subjects, fills out a timetable for the User that will dynamically update depending on the performance of the User in each Subject. Has an interactive Custom GUI.
     <!-- <br><br> <a href="/pages/projects/marioevo.html">Project Page</a> !-->
     </p>
 </details>
