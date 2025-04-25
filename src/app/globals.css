@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
@@ -6,23 +6,85 @@
   --background-light: #ffffff;
   --background-dark: #000000;
 
-  --foreground: #171717;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+
+  --windowtop-light: #ffe37d;
+  --windowtop-dark: #a0841e;
+  
+  --windowback-light: linear-gradient(to bottom, #ffffff, #fff0b8);
+  --windowback-dark:  linear-gradient(to bottom, #000000, #a0841e);
+
+  --border-color-light: #000000;
+  --border-color-dark: #ffffff;
+
+  --wave1-light: #ffd230;
+  --wave1-dark: #002dcf;
+  
 
   --font-mono: 'Roboto Mono', monospace;
   --font-sans: 'Roboto', sans-serif;
   --font-thin: 'Roboto', sans-serif;
-}
 
+  --github-icon-light: url("/github-mark.svg");
+  --github-icon-dark: url("/github-mark-white.svg");
+
+  --linkedin-icon-light: url("/linkedin-black.svg");
+  --linkedin-icon-dark: url("/linkedin-white.svg");
+
+  --github-icon-light: url("/github-mark.svg");
+  --github-icon-dark: url("/github-mark-white.svg");
+
+  --github-icon-light: url("/github-mark.svg");
+  --github-icon-dark: url("/github-mark-white.svg");
+}
 
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
-  background: var(--background-light);
-  color: var(--foreground);
-  font-family: font-sans, Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  --border-color: var(--border-color-light);
+  --background-color: var(--background-light);
+  --text-color: var(--text-light);
+  --windowtop-color: var(--windowtop-light);
+  --windowback-color: var(--windowback-light);
+
+  --wave1-color: var(--wave1-light);
+
+  --github-icon: var(--github-icon-light);
+  --linkedin-icon: var(--linkedin-icon-light);
 }
 
 body.dark {
-  background: var(--background-dark);
-  color: var(--foreground);
-  font-family: font-sans, Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  --border-color: var(--border-color-dark);
+  --background-color: var(--background-dark);
+  --text-color: var(--text-dark);
+  --windowtop-color: var(--windowtop-dark);
+  --windowback-color: var(--windowback-dark);
+
+  --wave1-color: var(--wave1-dark);
+
+  --github-icon: var(--github-icon-dark);
+  --linkedin-icon: var(--linkedin-icon-dark);
+}
+
+
+.main-title {
+  font-size: 3em;
+}
+
+.sub-title {
+  font-size: 1.5em;
+}
+
+.sub-2-title {
+  font-size: 1.2em;
+}
+
+.sub-3-title {
+  font-size: 1em;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

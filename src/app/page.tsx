@@ -2,6 +2,7 @@
 import Wavify from 'react-wavify';
 import { useState, useEffect } from 'react';
 import ThemeToggle from '@/components/ThemeToggle';
+import DraggableWindows from '@/components/DraggableWindows';
 
 
 const Base = () => {
@@ -11,6 +12,14 @@ const Base = () => {
     <div>
       <div className="foreground relative z-10">
         <ThemeToggle/>
+      </div>
+
+      <div className='absolute top-0 h-full w-full z-20 pointer-events-none'>
+        <DraggableWindows/>
+      </div>
+
+      <div className='absolute bottom-2 left-0 right-0 z-10 flex justify-center'>
+        <span className='text-[15px]'>Sounds from Zapsplat</span>
       </div>
 
       <div className="backgroundWaves">

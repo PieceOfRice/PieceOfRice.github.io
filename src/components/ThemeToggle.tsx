@@ -16,17 +16,15 @@ const ThemeToggle = () => {
     useEffect(() => {
         if (isDarkMode) {
             document.body.classList.add('dark');
-            // localStorage.setItem('theme', 'dark');
         } else {
             document.body.classList.remove('dark');
-            // localStorage.setItem('theme', 'light');
         }
         
     }, [isDarkMode]);
 
     return (
         <button
-        className="p-2 bg-transparent border-none w-13 h-13 flex items-center justify-center z-10 active:scale-10 transition-transform duration-200"
+        className="p-2 bg-transparent border-none w-13 h-13 flex items-center justify-center z-10 hover:scale-90 active:scale-10 transition-transform duration-200"
         onClick={toggleTheme}
         >
         <img src={isDarkMode ? "/sun.svg" : "/moon.svg"} alt="Toggle Theme" className="w-12 h-12" />
