@@ -40,7 +40,7 @@ const Window = (props: { id: string, title: string, height: number, width: numbe
                     
                     {/* Content */}
                     <div className="window rounded-bl-lg rounded-br-lg pointer-events-auto overflow-auto" style={{ flex: 1 }} >
-                    {props.content}
+                        {props.content}
                     </div>
                     
                 </div>
@@ -115,7 +115,7 @@ const DraggableWindows = () => {
             id: 'cv',
             title: 'cv',
             height: 80,
-            width: 100,
+            width: 110,
             position: { x: 50, y: 50 },
             content: () => <CVContent />
         };

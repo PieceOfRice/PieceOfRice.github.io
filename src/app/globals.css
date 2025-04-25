@@ -88,3 +88,18 @@ body.dark {
 .no-scroll {
   overflow: hidden;
 }
+
+
+
+.window::-webkit-scrollbar {
+  width: 12px;
+}
+
+.window::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+.window::-webkit-scrollbar-thumb {
+  background-color: #facc15; /* Tailwind yellow-400 */
+  border-radius: 6px;
+}

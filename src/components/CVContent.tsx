@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Wavify from 'react-wavify';
 
 const CVContent = () => {
   return (
@@ -13,9 +12,9 @@ const CVContent = () => {
         </p>
       
 
-        <div className="overflow-y-auto">
-          <div className="p-2" style={{ color: 'var(--text-color)' }}>
-            <h2 className="sub-title text-[#ee920b] font-bold">Profile</h2>
+        <div>
+          <div className="p-4" style={{ color: 'var(--text-color)' }}>
+            <h2 className="sub-title text-[#ee920b] font-bold pb-2">Profile</h2>
             <p>
               Artificial Intelligence &amp; Computer Science BSc student at the
               University of Birmingham, entering my third year with a first‑class
@@ -27,7 +26,7 @@ const CVContent = () => {
             <br/>
 
             {/* Education */}
-                <h2 className="sub-title text-[#ee920b] font-bold">Education</h2>
+                <h2 className="sub-title text-[#ee920b] font-bold pb-2">Education</h2>
 
               <h3
                 className="sub-2-title font-bold"
@@ -148,7 +147,7 @@ const CVContent = () => {
               >
                 Queens' School 2018 – 2022
               </h4>
-
+              <br/>
               <div style={{ display: 'flex', marginLeft: 15 }}>
                 {/* A Levels */}
                 <div style={{ width: '33%' }}>
@@ -224,7 +223,7 @@ const CVContent = () => {
               </div>
 
             {/* Skills & Interests */}
-                <h2 className="sub-title text-[#ee920b] font-bold">Skills &amp; Interests</h2>
+                <h2 className="sub-title text-[#ee920b] font-bold pb-2">Skills &amp; Interests</h2>
 
               {/* Programming & Interests */}
               <div style={{ display: 'flex', marginLeft: 15 }}>
