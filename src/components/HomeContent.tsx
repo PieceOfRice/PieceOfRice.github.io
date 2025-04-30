@@ -34,14 +34,14 @@ export default function HomeContent({ onOpenCV, onOpenProject }: { onOpenCV: () 
 
       <div className='hover:scale-90 active:scale-70 transition-transform duration-100'>
         <button onClick={onOpenCV} className="flex flex-col items-center font-semibold cursor-pointer font-mono" style={{ color: 'var(--text-color)' }}>
-          <img src="/globe.svg" alt="Globe Icon" className="w-12 h-12 mb-2" />
+          <img src="/file.svg" className="w-12 h-12 mb-2" />
           <span className='pt-2'>CV</span>
         </button>
       </div>
 
       <div className='hover:scale-90 active:scale-70 transition-transform duration-100'>
         <button onClick={onOpenProject} className="flex flex-col items-center font-semibold cursor-pointer font-mono" style={{ color: 'var(--text-color)' }}>
-          <img src="/globe.svg" alt="Globe Icon" className="w-12 h-12 mb-2" />
+          <img src="/file.svg"className="w-12 h-12 mb-2" />
           <span className='pt-2'>Projects</span>
         </button>
       </div>

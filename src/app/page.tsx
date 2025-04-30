@@ -1,6 +1,5 @@
 "use client"
 import Wavify from 'react-wavify';
-import { useState, useEffect } from 'react';
 import ThemeToggle from '@/components/ThemeToggle';
 import DraggableWindows from '@/components/DraggableWindows';
 

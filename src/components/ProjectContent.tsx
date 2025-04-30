@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Wavify from 'react-wavify';
 
 const ProjectContent = () => {
   return (

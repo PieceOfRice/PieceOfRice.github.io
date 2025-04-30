@@ -19,7 +19,7 @@ const CVContent = () => {
               Artificial Intelligence &amp; Computer Science BSc student at the
               University of Birmingham, entering my third year with a first‑class
               average. I have a deep interest in AI and its potential to transform
-              how we interact with technology. I'm eager to learn new techniques
+              how we interact with technology. I&apos;m eager to learn new techniques
               and gain practical experience in the industry.
             </p>
 
@@ -145,7 +145,7 @@ const CVContent = () => {
                 className="sub-3-title"
                 style={{ marginLeft: 30, marginTop: 0 }}
               >
-                Queens' School 2018 – 2022
+                Queens&apos; School 2018 – 2022
               </h4>
               <br/>
               <div style={{ display: 'flex', marginLeft: 15 }}>

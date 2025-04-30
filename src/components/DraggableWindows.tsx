@@ -1,8 +1,8 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import { DndContext } from "@dnd-kit/core";
+import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import { useDraggable } from "@dnd-kit/core";
 
 import HomeContent from "./HomeContent";
@@ -80,7 +80,7 @@ const DraggableWindows = () => {
         document.body.classList.add('no-scroll');
       };
 
-    const handleDragEnd = (event: any) => {
+    const handleDragEnd = (event: DragEndEvent) => {
         const { delta } = event;
         const id = event.active.id;
     
